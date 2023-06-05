@@ -4,9 +4,9 @@
 
 class ExprParser {
  public:
-  static std::string parseExpr(const std::string&); // перевод выражения из инфиксной формы в постфиксную
-  static bool isOperator(char symbol);  // проверяет, является ли символ оператором +, -, / или *
+  static std::string parseExpr(const std::string&); // РїРµСЂРµРІРѕРґ РІС‹СЂР°Р¶РµРЅРёСЏ РёР· РёРЅС„РёРєСЃРЅРѕР№ С„РѕСЂРјС‹ РІ РїРѕСЃС‚С„РёРєСЃРЅСѓСЋ
+  static bool isOperator(char symbol);  // РїСЂРѕРІРµСЂСЏРµС‚, СЏРІР»СЏРµС‚СЃСЏ Р»Рё СЃРёРјРІРѕР» РѕРїРµСЂР°С‚РѕСЂРѕРј +, -, / РёР»Рё *
  private:
-  static bool CheckBracketsNum(const std::string&); // проверяет количество скобок (верное или нет)  
-  static char Priority(char op); // возвращает приоритет оператора
+  static bool CheckBracketsNum(const std::string&); // РїСЂРѕРІРµСЂСЏРµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРєРѕР±РѕРє (РІРµСЂРЅРѕРµ РёР»Рё РЅРµС‚)  
+  static char Priority(char op); // РІРѕР·РІСЂР°С‰Р°РµС‚ РїСЂРёРѕСЂРёС‚РµС‚ РѕРїРµСЂР°С‚РѕСЂР°
 };
