@@ -62,7 +62,7 @@ void Stack<T>::push(T data)
 template <typename T>
 T Stack<T>::pop()
 {
-    int data = list[0]; // getting the top element
+    T data = list[0]; // getting the top element
     list.pop_front(); // removing the element from the stack
     return data;
 }
