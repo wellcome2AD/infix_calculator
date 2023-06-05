@@ -3,4 +3,4 @@ project(infix_calculator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(infix_calculator main.cpp LinkedList.cpp LinkedList.h Stack.cpp Stack.h PostfixCalculator.cpp PostfixCalculator.h)
+add_executable(infix_calculator main.cpp LinkedList.cpp LinkedList.h Stack.cpp Stack.h PostfixCalculator.cpp PostfixCalculator.h ExprParser.h ExprParser.cpp Queue.h)

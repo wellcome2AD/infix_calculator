@@ -1,7 +1,7 @@
 #ifndef LINKEDLIST_LINKEDLIST_H
 #define LINKEDLIST_LINKEDLIST_H
 
-#endif //LINKEDLIST_LINKEDLIST_H
+
 
 #include <iostream>
 
@@ -238,3 +238,5 @@ void List<T>::clear() {
         pop_front();
     }
 }
+
+#endif  // LINKEDLIST_LINKEDLIST_H
